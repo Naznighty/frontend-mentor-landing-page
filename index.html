@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend mentor landing page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <a href="#" class="logo">Nazanin</a>
+
+        <div class="dropdown">
+          <a href="#explore" class="dropdown-toggle" id="explore-toggle"
+            >EXPLORE <i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu" id="explore-menu">
+            <a href="https://www.frontendmentor.io/learning-paths"
+              ><img
+                src="https://img.icons8.com/?size=100&id=xzpOXZV0z-Te&format=png&color=000000"
+              />
+              LEARNING PATHS</a
+            >
+            <hr color="#DEDEDE" />
+            <a href="https://www.frontendmentor.io/challenges"
+              ><img
+                src="https://img.icons8.com/?size=100&id=TrLdymFIAigZ&format=png&color=000000"
+              />
+              CHALENGES</a
+            >
+            <hr color="#DEDEDE" />
+            <a href="#https://www.frontendmentor.io/solutions"
+              ><i class="fa-solid fa-code"></i> SOLUTIONS</a
+            >
+            <hr color="#DEDEDE" />
+            <a href="https://www.frontendmentor.io/articles"
+              ><i class="fa-regular fa-newspaper"></i> ARTICLES</a
+            >
+            <hr color="#DEDEDE" />
+            <a href="https://www.frontendmentor.io/guides"
+              ><i class="fa-brands fa-readme"></i> GUIDES</a
+            >
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#comp" class="dropdown-toggle" id="companies-toggle"
+            >FOR COMPANIES <i class="fa-solid fa-chevron-down"></i
+          ></a>
+          <div class="dropdown-menu" id="companies-menu">
+            <a href="https://hiring.frontendmentor.io/"
+              ><i class="fa-brands fa-hire-a-helper"></i> HIRE DEVELOPERS</a
+            >
+            <hr color="#DEDEDE" />
+            <a href="https://teams.frontendmentor.io/"
+              ><i class="fa-solid fa-user-graduate"></i> TRAIN DEVELOPERS</a
+            >
+          </div>
+        </div>
+        <a href="https://www.frontendmentor.io/pro"
+          ><i class="fa-solid fa-crown" style="color: rgb(116, 192, 252)"></i
+          >UNLOCK</a
+        >
+        <a
+          href="https://github.com/login/oauth/authorize?client_id=f71675ff0aff88252d33&scope=user:email"
+        >
+          <button id="login-btn">
+            <i class="fa-brands fa-github"></i> LOG IN WITH GITHUB
+          </button>
+        </a>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-tag">FOR LEARNERS</p>
+          <h1>Learn to code for free by building real-world projects</h1>
+          <p class="hero-description">
+            Build real projects to professional designs and briefs, get AI code
+            reviews that build a profile of your strengths, and grow alongside a
+            community reviewing each other’s code. Join 1,183,354 developers
+            building the skills and judgment that get them hired.
+          </p>
+
+          <div>
+            <a
+              href="https://github.com/login/oauth/authorize?client_id=f71675ff0aff88252d33&scope=user:email"
+              target="_blank"
+            >
+              <button class="btn1">
+                START BULDING FREE <i class="fa-brands fa-github"></i>
+              </button>
+            </a>
+
+            <a href="https://www.frontendmentor.io/challenges" target="_blank">
+              <button class="btn2">BROWSE CHALLENGES</button>
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img
+            src="https://www.frontendmentor.io/_next/image?url=%2Fimages%2Fhome-hero.webp&w=3840&q=100"
+            alt="My Photo"
+          />
+        </div>
+      </section>
+
+      <section>
+        <div id="bar">
+          <div class="bar-text">
+            <h2 class="tit">
+              Get an AI code review on every solution you submit
+            </h2>
+            <p class="p1">
+              Free members get one review a month. Go Pro for a review on every
+              submission and a skills profile that fills out as fast as you
+              build.
+            </p>
+          </div>
+
+          <div>
+            <a href="https://www.frontendmentor.io/pro">
+              <button class="btn3">LEARN ABOUT PRO</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="comment">
+        <div class="com1">
+          <p class="p2">
+            "I highly recommend Frontend Mentor. Skip the search for project
+            ideas and dive into ready-made challenges that help you level up as
+            a developer."
+          </p>
+          <div class="card-footer">
+            <div class="profile-info">
+              <h3>Kevin Powell</h3>
+              <p>Web Developer & YouTuber</p>
+            </div>
+            <span class="quote-icon">❞</span>
+          </div>
+        </div>
+
+        <div class="com1">
+          <p class="p2">
+            "Frontend Mentor is a win-win. You can sharpen your skills building
+            websites and add finished projects to your portfolio to help land a
+            job!"
+          </p>
+          <div class="card-footer">
+            <div class="profile-info">
+              <h3>Jessica Chan</h3>
+              <p>Web Developer & YouTuber</p>
+            </div>
+            <span class="quote-icon">❞</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="future">
+        <h3>AS FEATURED ON...</h3>
+        <div class="buttoms">
+          <a
+            href="https://css-tricks.com/front-end-challenges/"
+            target="_blank"
+          >
+            <button class="btn4">CSS-TRICKS</button>
+          </a>
+
+          <a
+            href="https://stackoverflow.blog/2021/04/30/podcast-334-a-curious-journey-from-personal-trainer-to-frontend-mentor/"
+            target="_blank"
+          >
+            <button class="btn5">stackoverflow</button>
+          </a>
+
+          <a
+            href="https://www.producthunt.com/products/frontend-mentor"
+            target="_blank"
+          >
+            <button class="btn6">Product Hunt</button>
+          </a>
+        </div>
+      </section>
+    </main>
+    <br />
+    <br />
+    <br />
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <span class="logo">Nazanin</span>
+        </div>
+        <div class="footer-socials">
+          <a href="https://discord.gg/UAfh3qzhYb"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a href="https://x.com/frontendmentor"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.linkedin.com/company/frontend-mentor"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/frontendmentor"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-newsletter">
+          <h3>Stay up to date</h3>
+          <p>
+            with new challenges, featured solutions, selected articles, and our
+            latest news.
+          </p>
+          <br />
+          <div class="newsletter-form">
+            <input type="text" id="email" placeholder="email@example.com" />
+            <div class="error" id="emailError"></div>
+            <button>SUBSCRIBE</button>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>FRONTEND MENTOR</h4>
+          <a href="https://www.frontendmentor.io/pro">Unlock Pro</a>
+          <a href="https://www.frontendmentor.io/contact">Contact Us</a>
+          <a href="https://www.frontendmentor.io/faqs">FAQs</a>
+          <a href="https://www.frontendmentor.io/become-a-partner"
+            >Become a partner</a
+          >
+          <a href="https://www.frontendmentor.io/use-cases">Use cases</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>EXPLORE</h4>
+          <a href="https://www.frontendmentor.io/learning-paths"
+            >Learning paths</a
+          >
+          <a href="https://www.frontendmentor.io/challenges">Challenges</a>
+          <a href="https://www.frontendmentor.io/solutions">Solutions</a>
+          <a href="https://www.frontendmentor.io/articles">Articles</a>
+          <a href="https://www.frontendmentor.io/guides">Guides</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>COMMUNITY</h4>
+          <a href="https://www.frontendmentor.io/community">Discord</a>
+          <a href="https://www.frontendmentor.io/guides/community-guidelines"
+            >Guidlines</a
+          >
+        </div>
+
+        <div class="footer-col">
+          <h4>FOR COMPANIES</h4>
+          <a href="https://hiring.frontendmentor.io/">Hire developers</a>
+          <a href="https://teams.frontendmentor.io/">Train developers</a>
+        </div>
+      </div>
+
+      <br />
+
+      <div class="footer-legal">
+        <span>© Frontend Mentor 2019 - 2026</span>
+        <div class="legal-links">
+          <a href="https://www.iubenda.com/terms-and-conditions/68783624"
+            >Terms</a
+          >
+          <a
+            href="https://www.iubenda.com/privacy-policy/68783624/cookie-policy"
+            >Cookie Policy</a
+          >
+          <a href="https://www.iubenda.com/privacy-policy/68783624"
+            >Privacy Policy</a
+          >
+          <a href="https://www.frontendmentor.io/license">License</a>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
